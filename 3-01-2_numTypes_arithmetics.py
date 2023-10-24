@@ -1,4 +1,4 @@
-# There is 3 basic data types in python:
+# There is 3 basic numeric types in python:
 # int, float, complex
 # IN FLOAT TYPE WE MUST USE '.'
 

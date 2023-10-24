@@ -12,7 +12,7 @@ print(str[-4])              # t
 print(str[len(str) - 1])    # n
 print("panda"[3])           # d
 
-# STRING SLICE [start:stop]
+# STRING SLICE [start:stop] // ARRAY SLICING METHOD
 print("-----------Slices------------")
 print(str[1:5])    # ello
 print(str[8:])      # thon
@@ -33,4 +33,8 @@ print(str[::-1])    # nohtyP olleH // IDEA how to REVERSE STRING // if step < 0 
 # BUT HOW TO CHANGE STRING? TO CREATE NEW ONE!
 str2 = "Y" + str[1:]
 print(str2)     # Yello Python
+
+# SLICE(start, stop, step) function in python
+strSlice = slice(0, 5, 1)
+print(str2[strSlice])  # Yello
 

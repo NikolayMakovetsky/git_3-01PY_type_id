@@ -1,40 +1,50 @@
+print("-----------------STRING IS UNCHANGEBLE ITERABLE DATA TYPE !!-------------------")
 # STRING is a symbol collection, each element has own number
 # STRING is a massive/list of symbols
 str = "Hello Python"
-print(str)
-# H   e    l   l  o  _  P  y  t  h  o   n
-# 0   1    2   3  4  5  6  7  8  9  10  11
-# -12 -11 -10 -9 -8 -7 -6 -5 -4 -3  -2  -1
+print(str, type(str))
+print("""STRING is a massive/list of symbols
+each element has own positive and negative number 
+-12 -11  -10 -9  -8  -7  -6  -5  -4  -3  -2  -1
+ H   e    l   l   o   _   P   y   t   h   o   n
+ 0   1    2   3   4   5   6   7   8   9   10  11""")
 
-# HOW TO FIND SYMBOL IN STRING?
-print("------Find symbol in string------------")
-print(str[-4])              # t
-print(str[len(str) - 1])    # n
-print("panda"[3])           # d
+print("\n--------------HOW TO FIND SYMBOL IN STRING?------------")
+print(f"""str = {str}
+str[-4] = {str[-4]}              
+str[len(str) - 1] = {str[len(str) - 1]}    
+"panda"[3] = {"panda"[3]}""")
 
-# STRING SLICE [start:stop] // ARRAY SLICING METHOD
-print("-----------Slices------------")
-print(str[1:5])    # ello
-print(str[8:])      # thon
-print(str[:3])      # Hel
-print(str[:])       # Hello Python (full slice) result object has the same id
-print(str[2:2])     # empty slice
-print(str[-2:2])    # empty slice
-print(str[2:-2])    # llo Pyth // slices works only from left to the right
+print("\n-----------STRING SLICE [start:stop] // ARRAY SLICING METHOD------------")
+print(f"""str = {str}
+str[1:5] = {str[1:5]} 
+str[8:]  = {str[8:]}    
+str[:3] = {str[:3]}     
+str[:]  = {str[:]}    // (full slice) result object has the same id
+str[2:2] = {str[2:2]}    // empty slice
+str[-2:2] = {str[-2:2]}   // empty slice
+str[2:-2] = {str[2:-2]}    // slices works only from left to the right""")
 
-# STRING SLICES WITH 'STEP' [start:stop:step] BY DEFAULT: step = 1
-print("---------Slices with parameter step---------")
-print(str[2:10:2])  # loPt // l(2)o(4)P(8)t(10)
-print(str[::-1])    # nohtyP olleH // IDEA how to REVERSE STRING // if step < 0 slice starts from last element!!!
+print(f"""\n---------STRING SLICES WITH 'STEP' [start:stop:step] BY DEFAULT: step = 1---------")
+str = {str}
+str[2:10:2] = {str[2:10:2]}  // l(2)o(4)P(8)t(10)
+str[::-1]  = {str[::-1]}   // IDEA how to REVERSE STRING // if step < 0 slice starts from last element!!!""")
 
-# STRING IS UNCHANGEABLE DATA TYPE
-#str[0] = 'Y'  # TypeError: 'str' object does not support item assignment
+print(f"""\n---------STRING IS UNCHANGEABLE DATA TYPE---------")
+str[0] = 'Y'  # TypeError: 'str' object does not support item assignment""")
 
-# BUT HOW TO CHANGE STRING? TO CREATE NEW ONE!
 str2 = "Y" + str[1:]
-print(str2)     # Yello Python
+print(f"""\n---------BUT HOW TO CHANGE STRING? BINGO! CREATE NEW ONE!---------")
+str = {str}
+str2 = "Y" + str[1:] -> {str2}""")
 
-# SLICE(start, stop, step) function in python
+# SLICE(start, stop, step) function
 strSlice = slice(0, 5, 1)
 print(str2[strSlice])  # Yello
+
+strSlice = slice(0, 5, 1)
+print(f"""\n--------- SLICE(start, stop, step) function ---------")
+strSlice = slice(0, 5, 1)
+str2 = {str2}
+str2[strSlice] = {str2[strSlice]}""")
 

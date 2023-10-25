@@ -1,32 +1,37 @@
-#Assign Operator '=' creates a link between variable and data storage
-#If in programm we have no links to storage object, it will be deleted by garbage cleaner
+print('''----------------
+Assign Operator '=' creates a link between variable and data storage
+If in programm we have no links to storage object,
+it will be deleted by garbage cleaner
+--------------------'''.upper())
 a = 7
 b = 8
+print(f"2 objects created: a = {a}, b = {b}")
 a = b
-print(a, b) #storage object with number = 7 deleted, because we have no links to it
-#So, now we nave one object with number = 8 and two links to it
+print(f"""after line \"a = b\": a = {a}, b = {b}
+storage object with number = 7 deleted
+now we nave one object with number = 8 and two links to it: 'a'->8<-'b'""")
 
-#Strict (hard) typing
+print("\n----------how to create variable-----------".upper())
+var_a = "PANDA"
+print(f"Variable \"{var_a}\" creates when we assign it's first value")
 
-#Dynamic typing
-var_a = "Panda 2" #Variable creates when we assign it's first value
-print(var_a)
-
-#Cascading assignment
+print("\n----------Cascading assignment-----------".upper())
 c = d = f = 0
-print(c, d, f)
+print(f"c = d = f = 0 result:", c, d, f, "// We creates 1 object and 3 links to it")
 
+print("\n----------id()------type()---------".upper())
 #id() function returns variable linked object identificator
-print(id(var_a))
 
-#type() function returns variable linked data type
-print(type(var_a))
+print(f"var_a = {var_a}, {type(var_a)}")
+print(f"id(var_a) = {id(var_a)}, {type(id(var_a))}")
+print(f"id('PANDA') = {id('PANDA')} - Python didn't create new object 'PANDA' but found it in a memory")
+print(f"type(id) - {type(id)}")
+print("""As long as you've maintained a reference to the object you can find it by id()""".upper())
 
-#Variable names ALLOWD:
-#First symbol from a...z \ A...Z also symbol '_'
-#form Second to last symbols also we can use numbers 0...9
 
-#Variable names NOT ALLOWD:
-#Python Console
-#help()
-#keywords
+print("""----------------
+Variable names ALLOWD:
+First symbol: a...z \ A...Z and '_'
+Second to last symbols: a...z \ A...Z 0...9 and '_'
+Variable names NOT ALLOWD: Python Console -> help() -> keywords
+-----------------""")

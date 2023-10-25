@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0953ffc7-1492-49bc-99f7-eb9476b7eec5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/3-01-4_print()_input()_map().py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-01-10_format()_f-strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/3-01-10_format()_f-strings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-01-1_assignment_type()_id().py" beforeDir="false" afterPath="$PROJECT_DIR$/3-01-1_assignment_type()_id().py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-01-2_numTypes_arithmetics.py" beforeDir="false" afterPath="$PROJECT_DIR$/3-01-2_numTypes_arithmetics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-01-3_math()_inputMath.py" beforeDir="false" afterPath="$PROJECT_DIR$/3-01-3_math()_inputMath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-01-4_print()_input().py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-01-5_bool_and_or_not.py" beforeDir="false" afterPath="$PROJECT_DIR$/3-01-5_bool_and_or_not.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-01-6_strings_strComparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/3-01-6_strings_strComparison.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-01-7_string_indexes_slices.py" beforeDir="false" afterPath="$PROJECT_DIR$/3-01-7_string_indexes_slices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-01-8_string.methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/3-01-8_string.methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-01-9_escape_special_chars.py" beforeDir="false" afterPath="$PROJECT_DIR$/3-01-9_escape_special_chars.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.3-01-10_format()_f-strings">
+  <component name="RunManager" selected="Python.3-01-8_string.methods">
     <configuration name="3-01-10_format()_f-strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3-01_python_beginners" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,6 +73,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="3-01-11_lists_listFuncs()" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="3-01_python_beginners" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-01-11_lists_listFuncs().py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="3-01-6_strings_strComparison" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3-01_python_beginners" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,28 +106,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\_3_\3-01_python_beginner\3-01-6_strings_strComparison.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="3-01-7_string_indexes_slices" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="3-01_python_beginners" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-01-7_string_indexes_slices.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-01-6_strings_strComparison.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3-01-8_string.methods" />
+        <item itemvalue="Python.3-01-6_strings_strComparison" />
+        <item itemvalue="Python.3-01-11_lists_listFuncs()" />
         <item itemvalue="Python.3-01-10_format()_f-strings" />
         <item itemvalue="Python.3-01-9_escape_special_chars" />
-        <item itemvalue="Python.3-01-8_string.methods" />
-        <item itemvalue="Python.3-01-7_string_indexes_slices" />
-        <item itemvalue="Python.3-01-6_strings_strComparison" />
       </list>
     </recent_temporary>
   </component>

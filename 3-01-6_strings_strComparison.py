@@ -1,46 +1,56 @@
-# STRING is an important data type in python
+
+print("\n-------------- STRING is unchangeble !!! iterable !!! data type  ---------".upper())
 s1 = "CungFU"
 s2 = 'Panda'
-print(s1, s2, "\n--------------")  # simple strings
-sLong1 = '''In addition to the standard library,
+print(s1, s2, type(s1), "SHORT STRING")
+sLong1 = '''\n-----------MULTIPLE LINE STRING IN \'\'\'----------
+In addition to the standard library,
 there is an active collection of hundreds of thousands of components'''
-print(sLong1, type(sLong1), sep='    ')  #  first variant of long string
+print(sLong1, type(sLong1), "\n", sep='    ')
 
-sLong2 = """(from individual programs and modules to packages and entire application development frameworks),
+sLong2 = """--------------MULTIPLE LINE STRING IN \"\"\"-------------
+(from individual programs and modules to packages and entire application development frameworks),
 available from the Python Package Index.   """
-print(sLong2, type(sLong2), "\n-------------")  #  second variant of long string
+print(sLong2, type(sLong2))
 
-# STRING CONCATENATION
+print("\n-------------- STRING CONCATENATION (+)  ---------".upper())
 sIlike = 'I like'
 sPython = 'Python'
-print(sIlike + "..." + sPython + "...it's concatenation" + "\n--------------")
+print(sIlike + "..." + sPython + "...it's concatenation")
 
-# STR() modified accept argument and returns string
-print(type(str(5.6)))  #  <class 'str'>
+print("\n-------------- STRING FUNCTIONS AND OPERATOR '*' ---------".upper())
 
-# OPERATOR '*' makes str by multiplicating substring
-strMultiple = "txt " * 5
-print(strMultiple)  #  txt txt txt txt txt
+print("\n-------------- STR() ---------".upper())
+print(f"type(str(5.6)) = {type(str(5.6))}  //  modified accept argument and returns string")
 
-# LEN() returns length of string
-print("strMultiple length = ", len(strMultiple))  # 20
+print("\n-------------- OPERATOR '*' ---------".upper())
+strMultiple = "txt" * 5
+print(f"strMultiple = \"txt\" * 5 = {strMultiple}   //  makes str by multiplicating substring")
 
-# ORD() accept symbole, returns ASCII code
-# CHR() accept ASCII code, returns symbole
-print(ord('K'), chr(75))  # 75 K
+print("\n-------------- LEN() ---------".upper())
+print("strMultiple length = ", len(strMultiple), "  //  returns length of string")  # 20
 
-# ----------------PYTHON STRING COMPARISON----------------------
+print("\n-------------- ORD() ---------".upper())
+print(f"ord('K') = {ord('K')} // accept symbol, returns ASCII code")
 
+print("\n-------------- CHR() ---------".upper())
+print(f"chr(75) = {chr(75)}  // accept ASCII code, returns symbol")
+
+
+print("\n-------------- PYTHON STRING COMPARISON ---------".upper())
+
+print("\n-------------- OPERATOR 'IN' ---------".upper())
 # OPERATOR 'IN' returns True if substring is in string
-print('ab' in 'abdfd')  #  True
+print("\'ab\' in \'abdfd\' -> ", 'ab' in 'abdfd')  #  True
 
-# OPERATORS '==', '!='
+print("\n-------------- OPERATORS '==', '!=' ---------".upper())
 strHello = "Hello"
-print(strHello, "== Hello", strHello == "Hello")  # Hello == Hello True
+print(strHello, "== Hello ->", strHello == "Hello")  # Hello == Hello True
 
-# OPERATORS '>', '<', '>=', '<='
-print('\"cat\" > \"cit\"?', "cat" > "cit")  # False
-# Operator compares symbols in two strings from first to last one by one using ASCII-code table
-# 1. 'c' = 'c' go on!
-# 2. 'a' > 'i' False bingo! -> operator returns False
-# 3. next symbols ignored
+print("\n-------------- OPERATORS '>', '<', '>=', '<=' ---------".upper())
+print('\"cat\" > \"cit\"? ->', "cat" > "cit")  # False
+print("""WHY FALSE?
+Operator compares symbols in two strings from first to last one by one using ASCII-code table
+1. 'c' = 'c' go on!
+2. 'a' > 'i' False bingo! -> operator returns False
+3. next symbols ignored""")

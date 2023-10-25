@@ -1,34 +1,42 @@
-# PYTHON OWN MATH FUNCTIONS
-# ABS() accept numeric, returns it's module
-print(abs(-5.6))  # =5.6
+print("\n----------PYTHON FUNCTIONS -----------".upper())
+print("\n----------ABS() -----------".upper())
+print(f"|-5.6| = {abs(-5.6)}")  # = 5.6
 
 # MIN() accept different numbers, return minimal
-print(min(1, 0, -5, 6.7, -8.34))  # =-8.34
+print(f"min(1, 0, -5, 6.7, -8.34) = {min(1, 0, -5, 6.7, -8.34)}")  # =-8.34
 var1, var2 = 78, 12
-print(min(var1, var2))  # =12
+print(f"var1, var2 = 78, 12  ->  min(var1, var2) = {min(var1, var2)}")  # =12
 
+print("\n---------- POW() -----------".upper())
 # POW() accept 2 parameters: numeric and degree, return: result of exponentiation
-print(pow(2, 3))  # 2^3=8
+print(f"2^3=8 -> pow(2, 3) = {pow(2, 3)}")  # 2^3=8
 
-# ROUND() accept numeric, return type integer round numeric
-print(round(5.43), round(3.12), round(7.499), round(7.5))  # = 5 3 7 8
-print(type(round(6.5)))  # <class 'int'>
-print(round(7.3411, 2))  # 7.34
-print(round(7.3411, -1))  # 10.0
+print(f"""\n---------- ROUND() -----------
+round(5.43) = {round(5.43)}
+round(3.12) = {round(3.12)}
+round(7.499) = {round(7.499)}
+round(7.5) = {round(7.5)} // but sometimes result could be 7! 
+type(round(6.5)) = {type(round(6.5))}
+round(7.3411, 2) = {round(7.3411, 2)}
+round(7.3411, -1) = {round(7.3411, -1)}
+""")
 
-# Python makes it easy to call one function from another
-print(max(1, 2, abs(-5)))  # =5
+print("---------- how to call one function from another? -----------".upper())
+print(f"max(1, 2, abs(-5)) = {max(1, 2, abs(-5))}")  # = 5
 
 # ADDITIONAL (OPTIONAL) MODULE MATH
 import math
-print("-------import math--------")
-print(math.ceil(5.21))  # =6 round number to bigger integer
-print(math.floor(7.88))  # =7 round number to smaller integer
-print(math.factorial(4))  # 1*2*3*4 = 24 calculate and return numeric factorial
-print(math.trunc(4.3344))  # =4 delete float numeric part after '.' and return integer numeric
-print(math.log2(8))  # 3.0
-print(math.log10(100))  # 2.0
-print(math.sqrt(16))  # 4.0
-print(math.pi, math.e)  # 3.141592653589793 2.718281828459045
-print(math.log(2.7))  # 0.9932517730102834 natural logarithm
-print(math.log(2.7, 3))  # 0.9040967257106154 logarithm with base 3
+print(f"""\n------- MATH MODULE FUNCTIONS-----------
+math.ceil(5.21) = {math.ceil(5.21)}                    // round number to bigger integer
+math.floor(7.88) = {math.floor(7.88)}                  // round number to smaller integer
+math.factorial(4) = {math.factorial(4)}               // 1*2*3*4 = 24 
+math.trunc(4.3344) = {math.trunc(4.3344)}             // delete float numeric part after '.' and return integer numeric
+type(math.trunc(4.3344))  = {type(math.trunc(4.3344))}    // it's true =)
+math.log2(8) = {math.log2(8)}                       // logarithm with base 2
+math.log10(100)  = {math.log10(100)}               // logarithm with base 10
+math.sqrt(16)  = {math.sqrt(16)}                 //square root
+math.pi = {math.pi}                 // pi number
+math.e  = {math.e}                 // e number
+math.log(2.7)  = {math.log(2.7)}             //  natural logarithm with base 'e'
+math.log(2.7, 3)  = {math.log(2.7, 3)}          // logarithm with base 3
+""")

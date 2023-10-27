@@ -50,5 +50,4 @@ LIST COMPARISON WORKS THE SAME LIKE STRINGS
 [1, 2, 3, 4] > [1, 2, 3] -> {[1, 2, 3, 4] > [1, 2, 3]}
 [1, 2, "abc"] > [1, 2, "abc"] -> {[1, 2, "abc"] > [1, 2, "abc"]}
 [1, 2, 3] > [1, 2, "abc"] -> TypeError: '>' not supported between instances of 'int' and 'str'
-
 """)

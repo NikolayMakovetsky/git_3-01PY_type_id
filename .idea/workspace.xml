@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0953ffc7-1492-49bc-99f7-eb9476b7eec5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-01-12_listSlices_listComparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/3-01-12_listSlices_listComparison.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-01-13_list.methods(args).py" beforeDir="false" afterPath="$PROJECT_DIR$/3-01-13_list.methods(args).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-01-1_assignment_type()_id().py" beforeDir="false" afterPath="$PROJECT_DIR$/3-01-1_assignment_type()_id().py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +43,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.3-01-13_list.methods(args)">
-    <configuration name="3-01-11_lists_listFunctions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.3-01-28_tuple">
+    <configuration name="3-01-1_assignment_type()_id()" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3-01_python_beginners" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,7 +56,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\_3_\3-01_python_beginner\3-01-11_lists_listFunctions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-01-1_assignment_type()_id().py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -63,7 +65,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3-01-12_listSlices_listComparison" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3-01-25_nested_list_comprehension" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3-01_python_beginners" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,7 +77,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-01-12_listSlices_listComparison.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-01-25_nested_list_comprehension.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3-01-13_list.methods(args)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3-01-26_dict_{}_basics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3-01_python_beginners" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,7 +98,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-01-13_list.methods(args).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-01-26_dict_{}_basics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3-01-6_strings_strComparison" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3-01-27_dict.methods()" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3-01_python_beginners" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,7 +119,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-01-6_strings_strComparison.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-01-27_dict.methods().py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3-01-8_string.methods" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3-01-28_tuple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3-01_python_beginners" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,7 +140,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-01-8_string.methods.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-01-28_tuple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.3-01-13_list.methods(args)" />
-        <item itemvalue="Python.3-01-12_listSlices_listComparison" />
-        <item itemvalue="Python.3-01-8_string.methods" />
-        <item itemvalue="Python.3-01-6_strings_strComparison" />
-        <item itemvalue="Python.3-01-11_lists_listFunctions" />
+        <item itemvalue="Python.3-01-28_tuple" />
+        <item itemvalue="Python.3-01-1_assignment_type()_id()" />
+        <item itemvalue="Python.3-01-27_dict.methods()" />
+        <item itemvalue="Python.3-01-26_dict_{}_basics" />
+        <item itemvalue="Python.3-01-25_nested_list_comprehension" />
       </list>
     </recent_temporary>
   </component>

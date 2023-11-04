@@ -7,7 +7,7 @@ print("a = [1, 2, 3]; a.append(5); a = ", a, "             // .append adds 1 ite
 
 b = [23, 43, -54]
 c = b.copy()
-print("b = [23, 43, -54]; c = b.copy(); c = ", c , "      // .copy make diff object with the same data")
+print("b = [23, 43, -54]; c = b.copy(); c = ", c, "      // .copy make diff object with the same data")
 
 c = b[:]
 print("b = [23, 43, -54]; c = b[:]; c = ", c, "         // [:] coping list using full slice")
@@ -38,26 +38,26 @@ b = [56, 0, 4, -1, 8]
 b.sort()
 print("b = [56, 0, 4, -1, 8]; b.sort(); b = ", b, "         // .sort() sorts current list in ascending order")
 b.sort(reverse=True)
-print("b.sort(reverse=True); b = ", b, "                       // .sort(reverse=True) sorts current list in descending order")
+print("b.sort(reverse=True); b = ", b, "              // .sort(reverse=True) sorts current list in descending order")
 
 c = sorted(b)
-print("b = [56, 0, 4, -1, 8]; c = sorted(b); c = ", c, "       // sorted() func returns new list in contrast of .sort() method")
+print("b = [56, 0, 4, -1, 8]; c = sorted(b); c = ", c, "// sorted() func returns new list in contrast of .sort() method")
 
 print("                      INSERT                ")
 a = [5, 0, -1]
 a.insert(2, -1000)
-print("a = [5, 0, -1]; a.insert(2, -1000); a = ", a, "       // .insert(itemNum, item)  includes to the current list a new item to a choosen place")
+print("a = [5, 0, -1]; a.insert(2, -1000); a = ", a, " // .insert(itemNum, item)  includes to the current list a new item to a selected place")
 
 print("                      REMOVE                ")
 b = [1, 2, 3, True, "Sex"]
 b.remove(True)
-print("b = [1, 2, 3, True, \"Sex\"]; b.remove(True); b = ", b, "      // removes first finded item  // 1 == True; 0 == False")
+print("b = [1, 2, 3, True, \"Sex\"]; b.remove(True); b = ", b, "// removes first found item  // 1 == True; 0 == False")
 print("b.remove(\"Town\")  ->  ValueError: list.remove(x): x not in list")
 
 print("                      POP                ")
 b = [1, 2, 3, True, "Sex"]
 c = b.pop(4)
-print("b = [1, 2, 3, True, \"Sex\"]; c = b.pop(4); c = ", c, type(c), "        //  deletes choosen item from current list and returns it")
+print("b = [1, 2, 3, True, \"Sex\"]; c = b.pop(4); c = ", c, type(c), " //  delete selected item from current list and returns it")
 print(b)
 c = b.pop()
 print("c = b.pop(); b = ", b, "      //  .pop() deletes and returns last item if you don't use args")
@@ -68,9 +68,8 @@ b.clear()
 print("b.clear(); b =", b, "          //  makes clear current list")
 
 print("                      INDEX                ")
-c = [9, -4, 0, 550, 0]
-d = c.index(0)
-print("c = [9, -4, 0, 550, 0]; d = c.index(0); d =", d, "    // returns index of first finded item")
-e = c.index(0, 3)
-print("e = c.index(0, 3); e =", e, "       // .index(value, itemStartNum) starts searching value from itemStartNum")
-print("w = c.index(\"home\"   ->   ValueError: \'home\' is not in list")
+d = [9, -4, 0, 550, 0].index(0)
+print("[9, -4, 0, 550, 0].index(0) =", d, "    // returns index of first found item")
+e = [9, -4, 0, 550, 0].index(0, 3)
+print("[9, -4, 0, 550, 0].index(0, 3) =", e, "       // .index(value, itemStartNum) starts searching value from itemStartNum")
+print("[9, -4, 0, 550, 0].index(\"home\")   ->   ValueError: \'home\' is not in list")

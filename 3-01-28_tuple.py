@@ -47,25 +47,3 @@ print(f"b[::2] = {b[::2]}")
 c = b[:]
 print(f"c = b[:] -> {c}")
 print(f"id(b) = {id(b)}, id(c) = {id(c)}  // b and c linked to the same object!!!")
-
-print("\n------------------WHAT'S THE REASONS TO USE TUPLES INSTEAD OF LISTS?------------------------")
-print("""1. tuples is immutable data type - by using it we protect data from programmer actions
-2. tuples is immutable data type - so, we can use tuple as a key in dict
-3. tuples used less memory then lists""")
-lst = [1, 2, 3]
-tpl = (1, 2, 3)
-print(f"lst = {lst} size (bytes): {lst.__sizeof__()}")
-print(f"tpl = {tpl} size (bytes): {tpl.__sizeof__()}")
-
-print("\n----------------HOW TO CREATE EMPTY TUPLE?---------------------")
-a = ()
-b = tuple()
-print(a, b, "- 2 variants")
-print("IN PRACTICE empty tuple used as basic tuple to merge it with fresh-created tuples in loop")
-
-print("\n-----------------------------HOW TO MERGE TUPLES? OPERATOR + -------------------------")
-a = ()
-print(f"a = {a}, id = {id(a)}")
-a = a + (1,)
-print("a = a + (1,)")
-print(f"a = {a}, id = {id(a)}      // we merge empty tuple with tuple (1,) and get the result: NEW TUPLE !!!")

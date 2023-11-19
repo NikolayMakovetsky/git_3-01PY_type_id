@@ -21,6 +21,12 @@ for x in dIndexes:
     d[x] *= 2
 print(f"After FOR loop d = {d}")
 
+print("\n-----------------------------RANGE()---------------------------")
+print("""Return an object that produces a SEQUENCE OF INTEGERS!
+from start (inclusive) to stop (exclusive)""")
+x, y, z = range(2, 5)
+print(f"x, y, z = range(2, 5)\n{x = }, {y = }, {z = }")
+
 print("\n---------RANGE() HELPS TO CHANGE LIST ELEMENTS USING FOR LOOP-----------------")
 print("                 range() generates arithmetic sequence")
 print(f"""                  range(start:stop:step)

@@ -14,10 +14,10 @@ def get_v(a, b, c):
 
 
 v = get_v(1, 2, 3)
-print(f"v = get_V(1, 2, 3)   ->   {v}           // normal arguments")
+print(f"v = get_V(1, 2, 3)   ->   {v}           // normal arguments ARGS")
 print("--------------------------------")
 v = get_v(b=1, a=2, c=3)
-print(f"v = get_V(b=1, a=2, c=3)   ->   {v}     // keywords (named) arguments")
+print(f"v = get_V(b=1, a=2, c=3)   ->   {v}     // keywords arguments KWARGS")
 print("--------------------------------")
 v = get_v(1, c=2, b=3)
 print(f"v = get_v(1, c=2, b=3)   ->   {v}       // mixed arguments")

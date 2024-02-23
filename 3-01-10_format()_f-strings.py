@@ -14,3 +14,11 @@ print("My name is {fio} I am {old} // here I change sequence of keywords".format
 
 print("\n---------- F-STRINGS PYTHON 3.6+ WATCH PEP498 FOR MORE INFO -----------")
 print(f"My nickname is {name}{len(name)+ord('R')} I am {age*11}")
+
+print("\n------- FORMAT STRING USING OPERATOR MODULO (actual for Python2)-------")
+name = "smith"
+year = 1994
+print("My name is %s and I born in year %d." % (name, year))
+# %s	    string
+# %d or %i	integer
+# %f	    float

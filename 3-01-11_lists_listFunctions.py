@@ -48,3 +48,20 @@ print(f"lListTest.append(777)", lListTest)
 print("""\n_____________________
 big list problem is that you can't add new element in the middle of actual list
 without creating new list in memory""".upper())
+
+print("---------------------------.EXTEND--------------------------")
+print("""The "extend" function works by taking an iterable object
+and adding its elements to the end of the original list.
+The iterable object can be a list, tuple, string, set, or any other iterable object.
+When the "extend" function is called,
+it first checks if the argument passed to it is an iterable object.
+If it is not, then the function raises a "TypeError" exception.\n""")
+
+a = [1, 2, 3]
+b = [5, 6]
+print(f"{a = }\n{b = }")
+
+a.append(b)
+print(f"\na.append(b)  ->  {a = }")
+a.extend(b)
+print(f"a.extend(b)  ->  {a = }\n")

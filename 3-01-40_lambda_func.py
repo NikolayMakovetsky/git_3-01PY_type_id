@@ -40,3 +40,46 @@ get_modify(lst, lambda x : True if x == 5 else x)
 print(f"{lst = }   // get_modify(lst, lambda x : True if x == 5 else x)")
 get_modify(lst, lambda x : 5)
 print(f"{lst = }      // get_modify(lst, lambda x : 5)")
+
+
+print("\n----------------------LAMBDA AS KEY IN SORT() AND SORTED()----------------------")
+list_of_tuples = [(1, 'd'), (2, 'b'), (4, 'a'), (3, 'c')]
+
+
+def new_order(x):  # Own sort func for itarable objects
+    return x[1]
+
+
+print(f"""{list_of_tuples = }\n
+{sorted(list_of_tuples) = }
+{sorted(list_of_tuples, key=lambda x: x[1]) = }
+{sorted(list_of_tuples, key=new_order) = }    // new_order() - our own sort func""")
+
+print("-" * 30)
+
+print(f"""\n{range(-5, 6) = }
+{sorted(range(-5, 6), key=lambda x: x * x) = }
+                             HOW DOES IT WORK?
+                 range(-5, 6) = -5 -4 -3 -2 -1 0 1 2 3 4 5
+                          key = 25 16 9 4 1 0 1 4 9 16 25 (key=lambda x: x * x)
+                   sorted key = 0 1 1 4 4 9 9 16 16 25 25
+sorted(range(-5, 6), key=...) = 0 -1 1 -2 2 -3 3 -4 4 -5 5
+
+{"-" * 30}
+
+{sorted(range(5, -6, -1), key=lambda x: x * x) = }
+                             HOW DOES IT WORK?
+                    range(5, -6, -1) = 5 4 3  1 0 -1 -2 -3 -4 -5
+                                 key = 25 16 9 4 1 0 1 4 9 16 25 (key=lambda x: x * x)
+                          sorted key = 0 1 1 4 4 9 9 16 16 25 25
+   sorted(range(5, -6, -1), key=...) = 0 1 -1 2 -2 3 -3 4 -4 5 -5
+   """)
+
+print("-" * 30)
+
+print(f"\n{sorted('hello', key=lambda x: ord(x))}   // 'hello' sorted by key=lambda x: ord(x)")
+
+enter = 'hel545 py5n st495 hel55 hel54 py5n'
+print(f"\n{enter = }")
+result = set(map(lambda x: x.replace('5', '*').replace('4', '*'), enter.split()))
+print(f"{result = }    // replacing by lambda func")
